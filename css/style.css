@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,500,600,700');
+
+body{
+	font-family: 'Cabin', sans-serif;
+	font-size: 14px;
+	color: #212529;
+}
+.header-area.sticky {
+	background-color: #fff !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky .nav-link{
+	color: #000;
+}
+
+.header-area.sticky .d-none{
+	display: block !important;
+}
+
+.header-area.sticky .d-block{
+	display: none !important;
+}
+
+.header-area.sticky .navbar-default{
+	background-color: #884bdf;
+}
+header {
+	background-color: #F8F9FA;
+}
+#home {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #FFFFFF;
+	position: relative;
+	padding: 10px 0;
+}
+#home p {
+	font-size: 18px;
+	color: #FFFFFF;
+	margin-bottom: 40px;
+}
+.btn-light {
+	font-size: 16px;
+	text-transform: uppercase;
+	padding: 10px 22px;
+	color: #528EFF;
+}
+#home img{
+margin-top: 80px;
+margin-bottom: 15px;
+}
+#home::before{
+content: "";
+background-color: #0A0707;
+position: absolute;
+width: 100%;
+height: 100%;
+top:0;
+}
+#home h1 {
+	font-size: 65px;
+	color: #FFFFFF;
+	font-weight: 900;
+	margin-top: 130px;
+	margin-bottom: 50px;
+}
+#products{
+	background-color: antiquewhite;
+	
+}
+#service{
+	text-align: center;
+}
+#testimonial h3{
+	
+}
+footer{
+	text-align: center;
+}
